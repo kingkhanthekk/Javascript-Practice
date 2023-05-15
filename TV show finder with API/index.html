@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV Show Finder</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <style>
+      body {
+        text-align: center;
+      }
+      form {
+        margin-bottom: 20px;
+      }
+      img {
+        margin: 10px 5px;
+      }
+      section {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TV Show Finder</h1>
+    <form action="" id="searchForm">
+      <input type="text" name="query" placeholder="Enter text" />
+      <button>Submit</button>
+    </form>
+    <section id="shows"></section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
